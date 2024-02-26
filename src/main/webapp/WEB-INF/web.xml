@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+	<!--  This is for testing servlet config -->
+		<servlet>
+			<servlet-name>testing</servlet-name>
+			<servlet-class>com.educlaas.TestingServlet</servlet-class>
+		</servlet>
+		
+		
+		<servlet-mapping>
+			<servlet-name>testing</servlet-name>
+			<url-pattern>/test</url-pattern>
+		</servlet-mapping>
+		
+		<!--  This is for about servlet config -->
+		<servlet>
+			<servlet-name>about</servlet-name>
+			<servlet-class>com.educlaas.AboutUsServlet</servlet-class>
+		</servlet>
+		
+		
+		<servlet-mapping>
+			<servlet-name>about</servlet-name>
+			<url-pattern>/about-us</url-pattern>
+		</servlet-mapping>
+		
+		
+			<!--  This is for Register servlet config -->
+			
+			<servlet>
+				<servlet-name>register</servlet-name>
+				<servlet-class>com.educlaas.controller.RegisterServlet</servlet-class>
+			</servlet>
+			
+			<servlet-mapping>
+					<servlet-name>register</servlet-name>
+					<url-pattern>/reg</url-pattern>
+			</servlet-mapping>
+		
+		
+
+</web-app>
